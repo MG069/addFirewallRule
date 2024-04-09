@@ -4,8 +4,8 @@ REM @author Michael Gantman
 REM Skript tries to create a new firewall rule with the name "rulename" and the IP subnet "iprange"
 REM If a rule with the name "rulename" already excitst he will skip it
 
-set /p rulename="Give me an rulename:"
-set /p iprange="Give me an IP subnet in the format X.X.X.X/X:"
+set /p rulename="Give me a rulename:"
+set /p iprange="Give me a IP subnet in the format X.X.X.X/X:"
 
 echo -----------------------------------------
 echo Creating Firewall Rule: %rulename% IP: %iprange%
